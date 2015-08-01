@@ -2,15 +2,18 @@
 <html>
 <head>
 	<title>Temperature Converter</title>
-	
+	<link rel="stylesheet" type="text/css" href="style.css"
 </head>
 <body>
+<div id="wrapper">
 	<input id="Celsius">
 	<button id="tempButton">Convert C to F</button>
-	<h1><span id="result1"></span> Fahrenheit</h1>
+	<h1><div class="temp"><span id="result1">___</span></div> Fahrenheit</h1>
 	<input id="Fahrenheit">
-	<button id="tempButton2">Convert C to F</button>
-	<h1><span id="result2"></span> Celcius</h1>
+	<button id="tempButton2">Convert F to C</button>
+	<h1><div class="temp"><span id="result2">___</span></div> Celsius</h1>
+	<button id="reset">Reset</button>
+	</div>
 	<script type="text/javascript" src="converter.js"></script>
 </body>
 </html>

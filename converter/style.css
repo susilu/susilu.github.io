@@ -1,0 +1,13 @@
+* {
+	font-family: "Helvetica";
+	font-size: 12px;
+	text-transform: uppercase;
+	}
+.temp {
+	display: inline-block;
+}
+#wrapper {
+	text-align: left;
+	margin-left: 200px;
+	margin-top: 20px;
+}

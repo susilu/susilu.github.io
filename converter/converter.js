@@ -14,3 +14,11 @@ function toCelsius() {
 	document.getElementById('result2').innerHTML = newC;
 	}
 
+document.getElementById('reset').onclick = resetTemp;
+
+function resetTemp() {
+	document.getElementById('Fahrenheit').value = "";
+	document.getElementById('Celsius').value = "";
+	document.getElementById('result2').innerHTML = "";
+	document.getElementById('result1').innerHTML = "";
+}
