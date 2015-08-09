@@ -1,0 +1,96 @@
+body {
+	background-image: url("../images/twin-peaks.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#logo-box {
+	width: 10%;
+	text-align: center;
+	float: left;
+}
+#logo {
+	width: 70%;
+	padding: 1.2em;
+}
+
+#logo:hover {
+	opacity: .4;
+}
+
+#logo-text {
+	font-family: 'Londrina Outline';
+	text-transform: uppercase;
+	line-height: .1em;	
+	color: white;
+}
+#logo-text:hover {
+	opacity: .4;
+}
+#wrapper {
+	background-color: rgba(255, 255, 255, .4);
+	width: 80%;
+	margin: auto;
+	height: 700px;
+}	
+
+#content-header {
+	padding: 1em;	
+}
+
+#profile-picture {
+	float: left;
+	margin-right: 1em;
+	border: white solid 5px;
+}
+
+#profile-picture:hover {
+	border: rgba(255, 255, 255, .5) 5px solid;
+}
+
+#intro {
+	float: left;
+	display: inline-block;
+	border-bottom: 2px solid white;
+}
+
+#username {
+	font-family: 'Londrina Outline', cursive;
+	color: white;
+	padding-top: 5em;
+	font-size: 2em;
+	letter-spacing: .2em;
+}
+
+h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: white;
+	line-height: .9em;
+	font-size: 1.2em;
+	}
+
+#images {
+	margin: 2em;
+	float: left;
+	display: inline-block;
+	width:30%;
+}
+#more-pics {
+	float: left;
+	clear: left;
+	width: 100%
+}	
+
+.thumbnail {
+	float: left;
+	width: 21.3%;
+	height: 21.3%;
+	border: white 5px solid;
+	margin-right: .35em;
+	margin-top: .3em;
+}
+
+.thumbnail:hover {
+	border: rgba(255, 255, 255, .5) 5px solid;
+}
