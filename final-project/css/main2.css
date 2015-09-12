@@ -1,0 +1,18 @@
+.vid-button {
+	background-image: url('../images/about-flat.jpg');
+	width: 90%;
+	margin: 0 auto;
+	padding: 16% 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.vid-button:hover {
+	background-image: url('../images/about-loop.gif');
+	cursor: pointer;
+	width: 90%;
+	margin: 0 auto;
+	padding: 16% 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}	

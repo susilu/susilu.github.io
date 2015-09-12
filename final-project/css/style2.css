@@ -1,0 +1,145 @@
+body {
+	font-family: Yantramanav, Arial, sans-serif;
+	text-align: center;
+	font-size: 10px;
+}
+
+h1 {
+	font-family: Yantramanav;
+	font-weight: 900;
+	font-size: 10em;
+	line-height: 0em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: rgb(0, 112, 200);
+	cursor: pointer;
+}
+
+#lu {
+	font-size: 1.85em;
+	line-height: 0em;
+	position: relative;
+	margin-top: -3.1em;
+	margin-bottom: -2.5em;
+}
+
+span {
+	font-size: .2em;
+}
+.button {
+	width: 100%;	
+}
+
+aside {
+	float: left;
+	width: 15%;
+	margin-left: 1em;
+}
+#wrapper {
+	width: 80%;
+	margin: 2% auto;
+	overflow: hidden;
+	float: right;
+	margin: 0 auto;
+	margin-top: 3em;
+	margin-right: 2em;
+}
+
+.row img {
+	float: left;
+	width: 32%;
+	margin: .5%;
+	border-radius: .3em;
+	border: 1px solid rgba(0, 112, 200, .5);
+}
+
+.row a:hover {
+	opacity: .8;
+}
+
+.row .thumbnail{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.body {
+	padding-top: 30em;
+	
+
+}
+
+.altimg {
+	background-image: url("../images/me4.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 45%;
+}
+
+.img {
+	background-image: url("../images/me.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 45%;
+}
+
+#sprite-wrapper {
+	width: 80%;
+	margin: auto;
+}
+.sprite {
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background: url("../images/Ultra-thin-Social-Icons.svg");
+	display: inline-block;
+}
+
+#insta {
+		background-position-x: -450px; 
+		background-position-y: -369px;
+}
+
+#tumblr {
+		background-position-x: -540px; 
+		background-position-y: -180px;
+} 
+
+#fb {
+		background-position-x: -210px; 
+		background-position-y: -110px;
+}
+
+
+#twitter {
+		background-position-x: -290px; 
+		background-position-y: -110px;
+}
+
+footer {
+clear: left;
+	padding-top: 2em;
+}
+
+#pdf {
+	margin-top: 4em;
+	float: right;
+	width: 60%;
+	padding-top: 6em;
+	padding-right: 15em;
+}
+
+.pdf {
+	border: 3px solid rgba(0, 112, 200, .5);
+	width: 100%;
+	height: 495px;
+}
+
+iframe {
+	margin-top: 10em;
+}
+
+

@@ -1,0 +1,102 @@
+body {
+	font-family: Yantramanav, Arial, sans-serif;
+	text-align: center;
+	font-size: 10px;
+}
+
+h1 {
+	font-family: Yantramanav;
+	font-weight: 900;
+	font-size: 10em;
+	line-height: 0em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #7094FF;
+	cursor: pointer;
+}
+
+#lu {
+	font-size: 1.8em;
+	line-height: 0em;
+}
+
+span {
+	font-size: .2em;
+}
+#wrapper {
+	width: 540px; 
+	margin: 0 auto; 
+	position: relative;
+}
+
+#wrapper a {
+	position: absolute;
+}
+
+video {
+	width: 200px;
+	display: inline-block;
+}
+
+video:hover {
+	cursor: pointer;
+}
+
+footer {
+	padding-top: 2em;
+}
+footer p {
+	float: left;
+}
+
+nav video {
+	width: 90%;
+	}
+
+#vid-wrapper1 {
+	background-image: url('../images/about-flat.jpg');
+	width: 90%;
+	margin: 0 auto;
+	padding: 16% 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}	
+
+#vid-wrapper1:hover {
+	background-image: url('../images/about.gif');
+}
+
+.sprite {
+	background-image: url('../images/about-flat.jpg');
+	height: 200px;
+	width: 100px;
+	background-repeat: no-repeat;
+}
+
+#sprite1 {
+	background-position: -380px -100px;		
+}
+
+
+#sprite2 {
+	background-position: -480px -100px;		
+}
+
+
+#sprite3 {
+	background-position: -580px -100px;		
+}
+
+
+#sprite4 {
+	background-position: -680px -100px;		
+}
+
+
+#sprite5 {
+	background-position: -780px -100px;		
+}
